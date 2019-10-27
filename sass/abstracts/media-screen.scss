@@ -1,0 +1,28 @@
+@media (max-width: 480px){
+	.col-xs-12 {
+		width: 100%;
+	}
+
+	.notification {
+		.notice-wrapper {
+			padding: 15px !important;
+		}
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 960px){
+	.col-sm-6 {
+		width: 50%;
+	}
+
+	.panel-box {
+		height: 200px;
+    	min-height: 200px;
+	}
+}
+
+@media (min-width: 960px){
+	.col-md-4 {
+		width: 33.33%;
+	}
+}

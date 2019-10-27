@@ -1,0 +1,26 @@
+@import '../abstracts/functions.scss';
+
+// MAIN COLOR
+$primary: (
+    blue: #007bc1,
+    darkBlue: #004a75,
+    orange: #ff8000,
+    darkOrange: #cc6600,
+    smokeGrey: #e5e5e5
+);
+
+// RGBA COLOR
+$blue: rgb(0, 123, 193);
+$darkBlue: rgb(0, 74, 117);
+$orange: rgb(255, 128, 0);
+$darkOrange: rgb(204, 102, 0);
+$smokeGrey: rgb(229, 229, 229);
+
+// OPACITY
+$newsletter: colorOpacity($blue, .85);
+
+// TRANSITION
+$transitionOut: ease-out .5s;
+$transitionIn: ease-in .5s;
+$transitionStdOut: ease-out .2s;
+$transitionStdIn: ease-in .2s;

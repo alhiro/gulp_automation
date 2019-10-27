@@ -1,0 +1,47 @@
+#content {
+	background-color: map-get($primary, smokeGrey);
+	padding: 50px 0;
+}
+
+#homepage {
+	margin: 0 30px;
+
+	[class*='col-'] {
+		padding-right: 10px;
+    	padding-left: 10px;
+	}
+}
+
+.highlight {
+	text-align: center;
+    width: 555px;
+    max-width: 100%;
+    margin: 0 auto;
+	padding-bottom: 30px;
+	
+	p {
+		font-size: 16px;
+	}
+}
+
+.panel-box {
+	background-color: map-get($primary, smokeGrey);
+	border: 1px solid #aaaaaa;
+	box-shadow: 0 0 5px #f7f7f7, inset 0 0 5px #f7f7f7;
+	padding: 15px;
+	margin-bottom: 20px;
+	min-height: 136px;
+	// @include text-row(31px,4);
+	.title {
+		font-size: 20px;
+    	margin-bottom: 8px;
+		span {
+			float: right;
+			i {
+				font-style: normal;
+				font-size: 24px;
+    			color: #a6a6a6;
+			}
+		}
+	}
+}

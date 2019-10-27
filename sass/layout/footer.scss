@@ -1,0 +1,67 @@
+#footer {
+	width: 100%;	
+	background: map-get($primary, darkBlue);
+	color: map-get($primary, smokeGrey);
+	position: relative;
+}
+
+.footer-box {
+	display: table;
+	width: 100%;
+	height: 100Px;
+
+  span {
+	display: table-cell;
+	vertical-align: middle;
+	font-family: Arial;
+  }
+}
+
+.newsletter {
+	width: 640px;
+	max-width: 100%;
+    background-color: $newsletter;
+    padding: 30px;
+	position: fixed;
+	bottom: -180px;
+	opacity: 0;
+	visibility: hidden;
+	transition: $transitionIn;
+	
+	&.showup {
+		bottom: 0;
+		opacity: 1;
+		visibility: visible;
+		transition: $transitionOut;	
+		z-index: 9;	
+	}
+
+	p {
+		line-height: 22px;
+		margin-bottom: 18px;
+	}
+	
+	h3 {
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	.input-group-btn {
+		padding-left: 12px;
+	}
+
+	.form-control {
+		border-radius: 0;
+		border: none;
+		height: 35px;
+	}
+
+	.closed {
+		position: absolute;
+		right: 12px;
+		top: 8px;
+		i {
+			font-style: normal;
+		}
+	}
+}

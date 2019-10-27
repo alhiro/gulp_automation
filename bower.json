@@ -1,0 +1,21 @@
+{
+  "name": "html-core",
+  "authors": [
+    "Alkim (mpustaka@gmail.com)"
+  ],
+  "description": "Cermati.com Front-end Developer Entry Test",
+  "main": "",
+  "keywords": [
+    "html-core"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
